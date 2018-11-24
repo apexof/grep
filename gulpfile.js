@@ -7,7 +7,8 @@ var gulp          = require('gulp'),
 		cleancss      = require('gulp-clean-css'),
 		rename        = require('gulp-rename'),
 		autoprefixer  = require('gulp-autoprefixer'),
-		notify        = require("gulp-notify");
+    notify        = require("gulp-notify"),
+    ghPages       = require('gulp-gh-pages');
 
 gulp.task('browser-sync', function() {
 	browsersync({
@@ -39,6 +40,13 @@ gulp.task('js', function() {
 	// .pipe(uglify()) // Mifify js (opt.)
 	.pipe(gulp.dest('./js/build'))
 	.pipe(browsersync.reload({ stream: true }))
+});
+
+
+ 
+gulp.task('deploy', function() {
+  return gulp.src('./dist/**/*')
+    .pipe(ghPages());
 });
 
 gulp.task('watch', ['styles', 'js', 'browser-sync'], function() {
