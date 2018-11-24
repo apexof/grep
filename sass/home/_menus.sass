@@ -1,0 +1,190 @@
+.mobile-menu-buttons
+  transition: filter .15s ease
+  position: fixed
+  top: 10px
+  right: 10px
+  z-index: 5
+  i 
+    background: linear-gradient(to left, #edb458 0, #cec071 100%)
+    -webkit-background-clip: text
+    -webkit-text-fill-color: transparent
+  span
+    display: inline-block
+    text-align: center
+    border: 1px solid #50545e
+    border-radius: 100px 
+    width: 60px
+    height: 60px
+    line-height: 58px
+    color: #fff
+    font-size: 22px
+    margin-left: 10px
+
+  .icon-wrapper
+    display: inline-block
+    border: 1px solid #50545e
+    border-radius: 100px
+    width: 60px
+    height: 60px
+    cursor: pointer
+    .icon-request-call
+      margin-left: 21px
+      margin-top: 17px
+      height: 25px
+      width: 25px
+      vertical-align: text-bottom
+
+.close-button
+  z-index: 7
+  text-align: center  
+  border: 1px solid #50545e
+  border-radius: 100px 
+  width: 60px
+  height: 60px
+  line-height: 58px
+  font-size: 22px
+  cursor: pointer
+  i 
+    background: linear-gradient(to left, #edb458 0, #cec071 100%)
+    -webkit-background-clip: text
+    -webkit-text-fill-color: transparent
+
+// Меню заказть звонок  
+.request-call-page
+  overflow-x: hidden   
+  position: fixed
+  left: 0
+  right: 0
+  top: 0
+  bottom: 100%
+  background-color: rgba(#0f141e, .8)
+  z-index: 5
+  transition: bottom .25s ease  
+  background-image: url('../../img/services-glare.png')
+  background-position-x: center
+  background-repeat: no-repeat
+  &-slide
+    bottom: 0
+  .close-button
+    display: table
+    margin: 85px auto 0
+  h2 
+    font-family: roboto-regular 
+    font-size: 20px
+    font-weight: 100
+    text-align: center
+    margin-top: 45px
+  form  
+    text-align: center
+    margin-top: 120px
+    input 
+      background-color: transparent
+      color: rgba(#fff, .15)
+      padding: 20px 0
+      font-size: 16px
+      font-family: roboto-light
+      font-weight: 100
+      text-align: center
+      width: 65%
+      max-width: 350px
+      border: 1px solid rgba(#fff, .15)
+      border-radius: 5px
+      &:first-of-type
+        margin-bottom: 20px
+      &:focus
+        border-bottom-right-radius: 0
+        border-bottom-left-radius: 0
+        outline: 0
+        border-bottom: 2px solid #fff
+        color: #ffffff
+    p 
+      font-size: 16px
+      font-family: roboto-light
+      font-weight: 100
+      margin-top: 70px
+      line-height: 1.6
+      a 
+        text-decoration: none
+        padding-bottom: 3px
+        border-bottom: 1px solid rgba(#fff, .15)
+    button
+      padding: 15px 65px
+      margin: 55px 0 180px
+      font-size: 16px
+      font-family: roboto-regular
+
+
+// Основное мобильное меню
+.mobile-menu
+  &-page
+    overflow-x: hidden   
+    position: fixed
+    left: 100%
+    right: 0
+    top: 0
+    bottom: 0
+    background-color: rgba(#0f141e, .8)
+    z-index: 5
+    transition: left .25s ease    
+    background-image: url('../../img/services-glare.png')
+    background-position-x: center
+    background-repeat: no-repeat
+    .close-button
+      position: absolute
+      top: 10px
+      right: 10px
+    ul 
+      z-index: 7
+      margin-top: 115px
+      font-size: 32px
+      font-family: roboto-light
+      font-weight: 100
+      text-align: left
+      padding: 0 40px
+      list-style-type: none 
+      li 
+        white-space: nowrap       
+      li + li
+        margin-top: 68px
+    hr 
+      z-index: 7
+      color: #424548 
+      border: none
+      height: 1px
+      color: #424548 // old IE 
+      background-color: #424548 // Modern Browsers 
+      &:first-of-type
+        margin-top: 190px   
+      &:last-of-type
+        margin-top: 50px     
+    .mobile-soc-menu
+      z-index: 7
+      font-size: 20px
+      font-family: roboto-regular
+      margin: 50px auto 0
+      display: table
+      overflow: hidden
+      white-space: nowrap
+      div
+        display: inline-block
+      i 
+        margin-right: 15px
+        font-size: 22px
+        vertical-align: middle
+      span
+        vertical-align: middle
+      .numb-tel
+        margin-left: 55px
+    .design-by
+      margin: 40px 0 60px 
+      text-align: center
+      white-space: nowrap
+      span 
+        font-size: 15px
+        font-family: roboto-light
+        font-weight: 100
+        vertical-align: middle
+        color: #61656b
+
+  &-slide
+    left: 0

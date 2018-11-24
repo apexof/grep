@@ -1,0 +1,112 @@
+.reviews 
+  border-bottom: 1px solid #353942
+  padding-bottom: 85px
+  padding-top: 95px
+  h2 
+    font-size: 30px
+    font-family: roboto-light
+    font-weight: 100
+    text-align: center
+  .reviews-gallery
+    margin-top: 65px
+    ul  
+      &.slick-dots li button:before
+        content: ''
+        font-family: 'Font Awesome 5 Free'
+        font-size: 10px
+        color: grey
+      &.slick-dots li.slick-active button:before
+        content: ''
+        font-family: 'Font Awesome 5 Free'
+        font-size: 16px
+        color: #fff
+    &-item 
+      text-align: center
+      &:focus
+        outline: none
+      img 
+        margin: 0 auto
+      .soc-block-mobile, .soc-block-desctop
+        i 
+          color: #4f535a
+          &:hover, &:focus
+            background: linear-gradient(to left, #edb458 0, #cec071 100%)
+            -webkit-background-clip: text
+            -webkit-text-fill-color: transparent
+        a
+          display: inline-block
+          position: relative
+          &:hover, &:focus
+            outline: none
+          &:hover::after 
+            content: 'Посмотреть альбом'
+            position: absolute
+            white-space: nowrap
+            left: 0
+            bottom: 31px
+            z-index: 1
+            text-align: center
+            font-family: roboto-light
+            font-size: 15px
+            padding: 5px 10px
+            background: transparent
+            border: 2px solid transparent
+            border-image: linear-gradient(to left, #edb458 0%, #cec071 100%)
+            border-image-slice: 1
+
+      .soc-block-mobile        
+        margin: 40px 0 18px
+        i
+          font-size: 30px
+        a + a 
+          margin-left: 20px
+      .soc-block-desctop
+        display: inline-block
+        i          
+          font-size: 25px
+          display: inline-block
+          vertical-align: middle
+        a + a 
+          margin-left: 10px
+          
+      .name
+        font-size: 28px
+        font-family: roboto-light
+        font-weight: 100
+        display: inline-block
+        vertical-align: middle
+      .info-block
+        margin-top: 20px
+        font-size: 18px
+        font-family: roboto-light
+        .type
+          border: 1px solid #353942
+          padding: 5px 15px
+          margin-right: 18px
+          border-radius: 3px
+        .date
+          color: #717377 
+          white-space: nowrap
+      button
+        margin-top: 25px
+        padding: 15px 25px
+      .review-text
+        font-size: 18px
+        font-family: roboto-light
+        margin-top: 30px
+        padding: 0 0 30px
+        white-space: normal
+        line-height: 1.3
+
+  button.show-reviews 
+    font-size: 16px
+    font-family: roboto-regular
+    padding: 25px
+    display: table
+    margin: 70px auto 0
+    .review-count
+      color: #7f8184
+      background-color: #292e37
+      border-radius: 3px
+      padding: 5px 7px
+      margin-left: 10px

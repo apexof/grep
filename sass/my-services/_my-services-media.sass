@@ -1,0 +1,63 @@
+/*==========  Desktop First  ==========*/
+// ≥1200px
++media-breakpoint-down(lg)
+// ≥992px
++media-breakpoint-down(md)  
+  .my-services
+    h2 
+      margin-top: 70px
+      text-align: center
+    p 
+      text-align: center
+      padding: 0 15px
+      &:nth-of-type(2)
+        margin-top: 30px
+// ≥768px
++media-breakpoint-down(sm)   
+  .my-services
+    padding-bottom: 53px
+    .slick-slide
+      width: 400px
+  .my-services-gallery-items
+    // margin-top: 80px  
+    .gallery-item
+      .img-box
+        max-width: 350px
+      .item-header
+        margin-top: 30px
+        white-space: nowrap
+      .item-desc
+        margin-top: 30px
+        font-size: 18px
+      .my-services-button
+        margin-top: 60px
+        padding: 20px 0
+        visibility: visible
+        width: 100%
+        max-width: 350px
+        font-size: 20px
+// ≥576px
++media-breakpoint-down(xs)
+
+/*==========  Mobile First  ==========*/
+// ≤576px
++media-breakpoint-up(sm)
+// ≤768px
++media-breakpoint-up(md)
+// ≤992px
++media-breakpoint-up(lg)
+// ≤1200px
++media-breakpoint-up(xl)
+
+@media all and (max-width: 450px) 
+  .my-services-gallery-items 
+    .gallery-item 
+      .item-header
+        white-space: normal
+        max-width: 250px
+
+@media all and (max-width: 340px) 
+  .my-services-gallery-items 
+    .gallery-item 
+      .item-header
+        font-size: 16px

@@ -1,0 +1,66 @@
+.greeting
+  display: table
+  background-image: url(../../img/greetings-bcg.png)
+  background-position: center
+  background-repeat: no-repeat
+  background-size: cover
+  height: 650px
+  width: 100%
+  padding-left: 10px
+  margin-top: -1px
+  .container-fluid.table-row
+    display: table-row
+    .row 
+      margin: 0 auto
+      display: table
+  .col
+    padding: 0
+  h2 
+    padding: 0
+    margin: 90px 0 0 0
+    font-family: roboto-light
+    font-size: 30px
+    font-weight: 100
+  .greeting-color-delimiter
+    margin-top: 35px
+    height: 3px
+    width: 87px
+    background-image: linear-gradient(to left, #edb458 0%, #cec071 100%)
+  .text-block 
+    margin-top: 25px
+    padding-left: 100px
+  p 
+    margin-top: 20px
+    font-family: roboto-regular
+    font-size: 16px
+    line-height: 1.3
+  hr 
+    margin-top: 40px
+    border: none
+    color: #474b54
+    background-color: #474b54
+    height: 1px
+  ul 
+    // margin-top: 70px 
+    li + li       
+      margin-left: 60px
+    li
+      display: inline-block
+      background-repeat: no-repeat
+      font-size: 16px
+      font-family: roboto-light
+      padding-left: 70px           
+      max-width: 315px
+      span 
+        display: inline-block 
+        vertical-align: middle  
+        line-height: 1.25
+      &:nth-child(1) 
+        background-image: url('../../img/icon-clock.png')
+        line-height: 50px
+      &:nth-child(2) 
+        background-image: url('../../img/icon-list.png')
+        line-height: 55px
+      &:nth-child(3) 
+        background-image: url('../../img/icon-photo.png')
+        line-height: 37px

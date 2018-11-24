@@ -1,0 +1,42 @@
+// ≥1200px
++media-breakpoint-down(lg)
+  .greeting ul
+    li
+      max-width: 305px
+    li + li 
+      margin-left: 20px
+// ≥992px
++media-breakpoint-down(md)
+  .greeting
+    height: 900px
+    .text-block
+      padding-left: 0
+    ul 
+      max-width: 340px
+      width: 100%
+      margin: 0 auto
+      li + li 
+        margin-top: 45px
+        margin-left: 0
+
+// ≥768px
++media-breakpoint-down(sm)    
+  .greeting
+    height: 950px
+// ≥576px
++media-breakpoint-down(xs)
+  .greeting
+    height: 1025px
+    h2 
+      margin-top: 70px
+    p 
+      font-size: 18px
+/*==========  Mobile First  ==========*/
+// ≤576px
++media-breakpoint-up(sm)
+// ≤768px
++media-breakpoint-up(md)
+// ≤992px
++media-breakpoint-up(lg)
+// ≤1200px
++media-breakpoint-up(xl)

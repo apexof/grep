@@ -1,0 +1,74 @@
+.my-services
+  padding-bottom: 100px
+  border-bottom: 1px #363a42 solid
+  h2 
+    margin-top: 75px
+    font-family: roboto-light
+    font-size: 30px
+    font-weight: 100
+  p 
+    margin: 0
+    padding: 0
+    font-family: roboto-regular
+    font-size: 16px
+    &:first-of-type
+      margin-top: 70px
+    &:nth-of-type(2)
+      margin-top: 10px
+
+.services-gallery
+  margin-top: 85px
+
+.my-services-gallery-items
+  position: relative
+  z-index: 1
+  padding-bottom: 50px
+  .gallery-item
+    cursor: pointer
+    &:focus
+      outline: 0
+    &:hover .my-services-button
+      visibility: visible
+  .img-box
+    border-radius: 8px
+    box-shadow: 0 24px 24px 0 rgba(#000, 0.3)
+    background-size: cover
+    background-position: center
+    background-repeat: no-repeat
+    height: 250px
+    width: 100%
+    &-1
+      background-image: url('../../img/my-services-img-1.jpg')
+      background-position-y: top
+    &-2
+      background-image: url('../../img/my-services-img-2.jpg')
+      background-position-x: right
+      background-position-y: top
+    &-3 
+      background-image: url('../../img/my-services-img-3.jpg')
+  .item-header
+    margin-top: 45px
+    font-size: 18px
+    font-family: roboto-regular    
+  .item-desc
+    margin-top: 20px
+    font-size: 16px
+    font-family: roboto-light
+  .my-services-button
+    font-size: 16px
+    font-family: roboto-regular
+    cursor: pointer
+    visibility: hidden
+    margin-top: 40px
+    padding: 13px 25px
+  ul.slick-dots  
+    li button:before
+      content: ''
+      font-family: 'Font Awesome 5 Free'
+      font-size: 10px
+      color: grey
+    li.slick-active button:before
+      content: ''
+      font-family: 'Font Awesome 5 Free'
+      font-size: 16px
+      color: #fff

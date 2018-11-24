@@ -1,0 +1,73 @@
+/*==========  Desktop First  ==========*/
+// ≥1200px
++media-breakpoint-down(lg)
+  .my-services-gallery-items
+    display: table
+    margin-left: auto
+    margin-right: auto
+    .img-box, .item-header
+      width: 300px
+// ≥992px
++media-breakpoint-down(md)  
+  .my-services-gallery-items 
+    .img-box, .item-header
+      width: 225px
+    .item-header
+      white-space: normal
+  .my-services
+    h2 
+      margin-top: 70px
+      text-align: center
+    p 
+      text-align: center
+      padding: 0 15px
+      &:nth-of-type(2)
+        margin-top: 30px
+// ≥768px
++media-breakpoint-down(sm)  
+  .my-services
+    height: 952px
+    .container-fluid
+      padding: 0
+      overflow-x: hidden
+
+    .my-services-gallery-items
+      display: block
+      margin-top: 80px
+      padding: 0 70px      
+      .gallery-item
+        margin-right: 25px
+        &:last-child
+          margin-right: 0
+        .img-box
+          width: 350px
+        .item-header
+          width: 350px
+          margin-top: 30px
+        .item-desc
+          margin-top: 30px
+          font-size: 18px
+        .my-services-button
+          // margin-top: 60px
+          padding: 20px 85px
+          visibility: visible
+          width: 100%
+          font-size: 20px
+          
+    .services-gallery  
+      ul 
+        display: block        
+
+// ≥576px
++media-breakpoint-down(xs)
+
+
+/*==========  Mobile First  ==========*/
+// ≤576px
++media-breakpoint-up(sm)
+// ≤768px
++media-breakpoint-up(md)
+// ≤992px
++media-breakpoint-up(lg)
+// ≤1200px
++media-breakpoint-up(xl)

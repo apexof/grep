@@ -1,0 +1,79 @@
+@import "vars"
+@import "fonts"
+@import "libs"
+
+body
+  min-width: 320px
+  color: #ffffff
+  line-height: 1
+  background-color: #1e232c
+
+.landing-blocks
+  transition: filter .4s ease 
+
+.container-fluid
+  max-width: 1110px
+
+h1, h2, hr
+  margin: 0
+  padding: 0
+
+ul 
+  margin: 0
+  padding: 0
+
+a 
+  color: #fff 
+  &:hover
+    color: #fff 
+
+.img-responsive
+  display: block
+  height: auto
+  max-width: 100%
+.img-width
+  width: 100%
+
+button
+  background: transparent
+  border: 2px solid transparent
+  border-image: linear-gradient(to left, #edb458 0%, #cec071 100%)
+  border-image-slice: 1
+  display: inline-block
+  color: #ffffff
+  &:hover, &:focus
+    background-image: linear-gradient(to left, #edb458 0%, #cec071 100%)
+    cursor: pointer
+    outline: none
+
+.all_blur
+  filter: blur(15px) 
+
+.no-scroll
+  overflow: hidden  
+
+.display-none
+  display: none
+
+//---------------------------- Менюшки 
+@import "home/menus"
+//---------------------------- Наверх 
+@import "page-up"
+//---------------------------- Главная 
+@import "home/home"
+//---------------------------- Приветствие 
+@import "greeting/greeting"
+// ---------------------------- Мои услуги  
+@import "my-services/my-services"
+// ---------------------------- Примеры моих работ  
+@import "examples-my-work/examples-my-work"
+// ---------------------------- Запишитесь заранее
+@import "sign-up-in-advance/sign-up-in-advance"
+// ---------------------------- Отзывы моих любимых клиентов
+@import "reviews/reviews"
+// ---------------------------- И еще 4 причины обратиться ко мне
+@import "4reasons/4reasons"
+// ---------------------------- футер
+@import "footer/footer"
+
+@import "media" // Always at the end

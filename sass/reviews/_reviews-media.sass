@@ -1,0 +1,65 @@
+/*==========  Desktop First  ==========*/
+// ≥1200px
++media-breakpoint-down(lg)
+// ≥992px
++media-breakpoint-down(md)  
+  .reviews 
+    button.show-reviews 
+      display: none
+    .reviews-gallery-item 
+      .review-desc-wrapper
+        max-width: none
+      .soc-block-desctop
+        display: none
+      .review-text
+        max-width: 550px
+        padding: 0 30px 30px
+        margin: 30px auto 0
+// ≥768px
++media-breakpoint-down(sm)  
+
+// ≥576px
++media-breakpoint-down(xs)
+/*==========  Mobile First  ==========*/
+// ≤576px
++media-breakpoint-up(sm)
+// ≤768px
++media-breakpoint-up(md)
+// ≤992px
++media-breakpoint-up(lg)
+  .reviews 
+    padding-bottom: 110px
+    .reviews-gallery-item 
+      text-align: left
+      white-space: nowrap
+      .review-desc-wrapper
+        max-width: 300px
+        display: inline-block
+        margin-top: 25px
+      img 
+        vertical-align: top
+        margin: 0 20px 0 0 
+      .soc-block-mobile
+        display: none        
+      .review-text
+        padding: 0 0 30px
+        font-size: 15px
+        margin-top: 25px
+      .info-block
+        margin-top: 25px
+        font-size: 15px
+      .name 
+        margin-right: 16px   
+        font-size: 24px     
+      button.show-album
+        display: none
+
+  
+// ≤1200px
++media-breakpoint-up(xl)
+  .reviews 
+    .reviews-gallery-item 
+      .review-desc-wrapper
+        max-width: 340px
+      img 
+        margin: 0 50px 0 0 

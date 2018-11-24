@@ -1,0 +1,127 @@
+.examples-my-work
+  padding-bottom: 200px
+  width: 100%
+  position: relative
+  .img-services-glare
+    position: relative
+    bottom: 500px
+    display: block
+    margin: 0 auto
+    max-width: 100%
+  h2 
+    margin-top: 70px
+    font-family: roboto-light
+    font-size: 30px
+    font-weight: 100
+  ul.examples-work-menu 
+    margin-top: 60px
+    li
+      position: relative
+      padding: 15px 20px
+      display: inline-block
+      list-style-type: none
+      margin-bottom: -2px
+      cursor: pointer
+      border: 1px solid #3e4245
+      border-bottom: 2px solid #edb458
+      &.active
+        border: 2px solid #edb458
+        border-bottom: none
+        margin-left: -7px
+        margin-right: -2px
+    li + li 
+      margin-left: -5px
+      border-left: none
+  .examples-gallery
+    margin-top: 75px
+    padding-bottom: 60px
+    .examples-gallery-item
+      text-align: center
+      &:focus
+        outline: none
+      .client-names
+        margin-top: 45px
+        font-size: 16px
+        font-family: roboto-regular
+      .session-type
+        margin-top: 22px
+        font-size: 15px
+        font-family: roboto-light
+      .count-photos
+        margin-top: 10px
+        font-size: 15px
+        font-family: roboto-light
+      .img-box
+        border-radius: 8px
+        box-shadow: 0 10px 0 -5px rgba(#fff, 0.16)
+        background-size: cover
+        background-position: center
+        background-repeat: no-repeat
+        width: 100%
+        max-width: 260px
+        height: 160px
+        position: relative
+        cursor: pointer
+        margin: 0 auto
+        &:focus
+          outline: none
+        .count-likes
+          position: relative
+          font-size: 14px
+          font-family: roboto-regular
+          background-color: rgba(#000, .66)
+          padding: 5px 13px
+          display: inline-block
+          z-index: 2
+          border-radius: 5px
+          margin-top: 120px
+          i 
+            font-family: 'Font Awesome 5 Free'
+            margin-right: 5px
+        &::before
+          content: ''
+          position: absolute
+          top: 0
+          bottom: 0
+          left: 0
+          right: 0        
+          border-radius: 8px
+          z-index: 1
+        &::after
+          content: ''
+          position: absolute
+          top: 0
+          bottom: 0
+          left: 0
+          right: 0
+          box-shadow: 0 20px 0 -10px rgba(#fff, 0.16)
+          border-radius: 14px
+        &:hover
+          box-shadow: 0 12px 0 -5px rgba(#fff, 0.16)
+          &::after
+            box-shadow: 0 24px 0 -10px rgba(#fff, 0.16)
+          &::before
+            background-color: rgba(#000, .5)
+          .count-likes
+            background-color: #ff0042
+        &-1
+          background-image: url('../../img/examples-work/1.png')
+          background-position-x: right
+        &-2
+          background-image: url('../../img/examples-work/2.png')
+        &-3
+          background-image: url('../../img/examples-work/3.png')
+        &-4
+          background-image: url('../../img/examples-work/4.png')
+
+    ul.slick-dots  
+      li button:before
+        content: ''
+        font-family: 'Font Awesome 5 Free'
+        font-size: 10px
+        color: grey
+      li.slick-active button:before
+        content: ''
+        font-family: 'Font Awesome 5 Free'
+        font-size: 16px
+        color: #fff
