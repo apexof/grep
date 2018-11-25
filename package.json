@@ -9,14 +9,23 @@
   "author": "apexof",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
     "browser-sync": "^2.26.3",
-    "gulp": "^3.9.1",
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "gulp": "^4.0.0",
     "gulp-autoprefixer": "^6.0.0",
+    "gulp-babel": "^8.0.0",
     "gulp-clean-css": "^3.9.3",
     "gulp-concat": "^2.6.1",
+    "gulp-debug": "^4.0.0",
     "gulp-gh-pages": "^0.5.4",
+    "gulp-newer": "^1.4.0",
     "gulp-notify": "^3.2.0",
     "gulp-rename": "^1.2.2",
+    "gulp-rigger": "^0.5.8",
     "gulp-rsync": "0.0.8",
     "gulp-ruby-sass": "^3.0.0",
     "gulp-sass": "^4.0.1",
@@ -24,5 +33,8 @@
     "gulp-uglify": "^3.0.0",
     "gulp-util": "^3.0.8"
   },
-  "homepage": "https://apexof.github.io/grep"
+  "homepage": "https://apexof.github.io/grep",
+  "dependencies": {
+    "del": "^3.0.0"
+  }
 }
