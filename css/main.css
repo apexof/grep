@@ -6384,7 +6384,7 @@ button {
   -webkit-transition: bottom .25s ease;
   -o-transition: bottom .25s ease;
   transition: bottom .25s ease;
-  background-image: url("../../img/services-glare.png");
+  background-image: url("../img/services-glare.png");
   background-position-x: center;
   background-repeat: no-repeat; }
   .request-call-page-slide {
@@ -6452,7 +6452,7 @@ button {
   -webkit-transition: left .25s ease;
   -o-transition: left .25s ease;
   transition: left .25s ease;
-  background-image: url("../../img/services-glare.png");
+  background-image: url("../img/services-glare.png");
   background-position-x: center;
   background-repeat: no-repeat; }
   .mobile-menu-page .close-button {
@@ -6595,7 +6595,7 @@ button {
 .home {
   width: 100%;
   padding-bottom: 130px;
-  background-image: url(../../img/main-bcg.jpg);
+  background-image: url(../img/main-bcg.jpg);
   background-repeat: no-repeat;
   background-position-x: center;
   -webkit-background-size: cover;
@@ -6687,7 +6687,7 @@ button {
 .home-main-ul {
   margin-top: 130px; }
   .home-main-ul ul {
-    list-style-image: url("../../img/list-style-image.png");
+    list-style-image: url("../img/list-style-image.png");
     margin-left: 20px; }
   .home-main-ul li {
     padding-left: 30px;
@@ -6704,7 +6704,7 @@ button {
 
 .greeting {
   display: table;
-  background-image: url(../../img/greetings-bcg.png);
+  background-image: url(../img/greetings-bcg.png);
   background-position: center;
   background-repeat: no-repeat;
   -webkit-background-size: cover;
@@ -6762,13 +6762,13 @@ button {
       vertical-align: middle;
       line-height: 1.25; }
     .greeting ul li:nth-child(1) {
-      background-image: url("../../img/icon-clock.png");
+      background-image: url("../img/icon-clock.png");
       line-height: 50px; }
     .greeting ul li:nth-child(2) {
-      background-image: url("../../img/icon-list.png");
+      background-image: url("../img/icon-list.png");
       line-height: 55px; }
     .greeting ul li:nth-child(3) {
-      background-image: url("../../img/icon-photo.png");
+      background-image: url("../img/icon-photo.png");
       line-height: 37px; }
 
 .my-services {
@@ -6814,14 +6814,14 @@ button {
     height: 250px;
     width: 100%; }
     .my-services-gallery-items .img-box-1 {
-      background-image: url("../../img/my-services-img-1.jpg");
+      background-image: url("../img/my-services-img-1.jpg");
       background-position-y: top; }
     .my-services-gallery-items .img-box-2 {
-      background-image: url("../../img/my-services-img-2.jpg");
+      background-image: url("../img/my-services-img-2.jpg");
       background-position-x: right;
       background-position-y: top; }
     .my-services-gallery-items .img-box-3 {
-      background-image: url("../../img/my-services-img-3.jpg"); }
+      background-image: url("../img/my-services-img-3.jpg"); }
   .my-services-gallery-items .item-header {
     margin-top: 45px;
     font-size: 18px;
@@ -6964,14 +6964,14 @@ button {
           .examples-my-work .examples-gallery .examples-gallery-item .img-box:hover .count-likes {
             background-color: #ff0042; }
         .examples-my-work .examples-gallery .examples-gallery-item .img-box-1 {
-          background-image: url("../../img/examples-work/1.png");
+          background-image: url("../img/examples-work/1.png");
           background-position-x: right; }
         .examples-my-work .examples-gallery .examples-gallery-item .img-box-2 {
-          background-image: url("../../img/examples-work/2.png"); }
+          background-image: url("../img/examples-work/2.png"); }
         .examples-my-work .examples-gallery .examples-gallery-item .img-box-3 {
-          background-image: url("../../img/examples-work/3.png"); }
+          background-image: url("../img/examples-work/3.png"); }
         .examples-my-work .examples-gallery .examples-gallery-item .img-box-4 {
-          background-image: url("../../img/examples-work/4.png"); }
+          background-image: url("../img/examples-work/4.png"); }
     .examples-my-work .examples-gallery ul.slick-dots li button:before {
       content: '';
       font-family: 'Font Awesome 5 Free';
