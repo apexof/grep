@@ -1,7 +1,7 @@
 'use strict';
 
 const gulp = require('gulp');
-const sourcemaps = require('gulp-sourcemaps');
+// const sourcemaps = require('gulp-sourcemaps');
 const babel = require('gulp-babel');
 const concat = require('gulp-concat');
 const uglify = require('gulp-uglify');
@@ -13,8 +13,8 @@ const autoprefixer = require('gulp-autoprefixer');
 const bSync = require('browser-sync');
 // const imageResize = require('gulp-image-resize');
 const del = require('del');
-const newer = require('gulp-newer');
-const debug = require('gulp-debug');
+// const newer = require('gulp-newer');
+// const debug = require('gulp-debug');
 const rigger = require('gulp-rigger');
 const ghPages = require('gulp-gh-pages');
 
